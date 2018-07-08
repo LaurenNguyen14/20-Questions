@@ -1,0 +1,107 @@
+<romantic_movies> 
+<question q="Is it a romantic-disaster movie?">
+	<answer a="Yes">
+		<question q="Is the movie from a book?">
+			<answer a="Yes">
+				<question q="Does the movie take place in the present?">
+					<answer a="Yes">
+						<title title="The Fault in Our Star"></title>
+					</answer>
+					<answer a="No">
+						<title title="The Great Gatsby"></title>
+					</answer>
+				</question>
+			</answer>
+			<answer a="No">
+				<title title="Titanic"></title>
+			</answer>
+		</question>
+	</answer>
+	<answer a="No">
+		<question q="Is it a musical?">
+			<answer a="Yes">
+				<question q="Is it an old movie?">
+					<answer a="Yes">
+						<title title="Dirty Dancing"></title>
+					</answer>
+					<answer a="No">
+						<title title="La La Land"></title>
+					</answer>
+				</question>
+			</answer>
+			<answer a="No">
+				<question q="Is it an indie movie?">
+					<answer a="Yes">
+						<question q="Is it a sci-fi?">
+							<answer a="Yes">
+								<question q="Is the movie involved an unreal person">
+									<answer a="Yes">
+										<title title="Her"></title>
+											</answer>
+											<answer a="No">
+												<title title="Eternal Sunshine and the Spotless Mind"></title>
+											</answer>
+								</question>
+							</answer>
+							<answer a="No">
+								<question q="Is the movie sad?">
+									<answer a="Yes">
+										<title title="500 Days of Summer"></title>
+									</answer>
+									<answer a="No">
+										<question q="Is the movie famous for its cinematography?">
+											<answer a="Yes">
+												<title title="Moonrise Kingdom"></title>
+											</answer>
+											<answer a="No">
+												<question q="Is this movie a part of a trilogy?">
+													<answer a="Yes">
+														<title title="Before Sunset"></title>
+													</answer>
+													<answer a="No">
+														<title title="Juno"></title>
+													</answer>
+												</question>
+											</answer>
+										</question>
+									</answer>
+								</question>
+							</answer>
+					</question>
+			</answer>
+			<answer a="No">
+				<question q="Is the movie from a book?">
+					<answer a="Yes">
+						<title title="The Notebook"></title>
+					</answer>
+					<answer a="No">
+						<question q="Is it an old movie?">
+							<answer a="Yes">
+								<title title="Breakfast at Tiffany's"></title>
+							</answer>
+							<answer a="No"></answer>
+								<question q="Is the character's love towards a place rather than a person?"></question>
+									<answer a="Yes">
+										<title title="Midnight in Paris"></title>
+									</answer>
+									<answer a="No">
+										<question q="Does one of the characters die?">
+											<answer a="Yes">
+												<title title="PS: I love you"></title>
+											</answer>
+											<answer a="No">
+												<title title="When Harry met Sally"></title>
+											</answer>
+										</question>
+									</answer>
+								</question>
+							</answer>
+					</question>
+				</answer>
+		</question>
+	</answer>
+</question>
+</answer>
+</question>
+
+</romantic_movies>
